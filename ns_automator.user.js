@@ -11,9 +11,9 @@
 (function () {
     'use strict';
 
-    const PASSWORD = 'Lenovo007';
+    const PASSWORD = 'Password123';
     const MAX_ACCOUNTS = 300;
-    const baseNation = 'sacc';
+    const baseNation = 'USER';
 
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -36,7 +36,7 @@
     const getNationNumber = () => {
         const nationLink = document.querySelector('a.bellink.quietlink.shortname');
         if (nationLink) {
-            const match = nationLink.textContent.match(/sacc(\d+)/i);
+            const match = nationLink.textContent.match(/USER(\d+)/i);
             if (match) return parseInt(match[1]);
         }
         const stored = localStorage.getItem('nationCounter');
@@ -108,7 +108,7 @@
         };
 
         document.querySelector('#searchBtn').onclick = () => {
-            const acct = prompt("Enter account name (e.g., sacc1):");
+            const acct = prompt("Enter account name (e.g., USER1):");
             if (acct) window.location.href = `https://www.nationstates.net/nation=${acct}`;
         };
 
@@ -120,7 +120,7 @@
 
     const countCardsOnDeckPage = () => {
         const cards = document.querySelectorAll('.deckcard-container figure.front');
-        const thisNation = `sacc${currentNationNumber}`;
+        const thisNation = `USER${currentNationNumber}`;
 
         cards.forEach(card => {
             const classList = card.classList;
