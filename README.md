@@ -25,8 +25,8 @@ Steps to Activate
 
 ## 🛠️ Configuration
 
-- Password: Stored in-script as `Password123`
-- Account Prefix: `USER`
+- Password(adjustable): Stored in-script as `Password`
+- Account Prefix(adjustable): `USER`
 - Max accounts(adjustable) 1500 - NationStates has an inbuilt function preventing excess accounts so only able to create 50-100 a day.
 
 You can adjust these constants directly in the script.
