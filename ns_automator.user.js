@@ -13,7 +13,7 @@
 
     const PASSWORD = 'Password';
     const MAX_ACCOUNTS = 1500;
-    const baseNation = 'account';
+    const baseNation = 'User';
     const MAIN_ACCOUNT = 'Main';
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
