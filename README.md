@@ -20,14 +20,14 @@ Steps to Activate
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) on your browser.
 2. On the top right hand, click bookmarks and pin tampermonkey
-3. Click the tampermonkey button, create a bew script, and paste the script and save
+3. Click the tampermonkey button, create a new script, and paste the script and save
 4. Visit [https://www.nationstates.net](https://www.nationstates.net) — the script activates automatically.
 
 ## 🛠️ Configuration
 
 - Password: Stored in-script as `Password123`
 - Account Prefix: `USER`
-- Max accounts(adjustable) 300 - NationStates has an inbuilt function preventing excess accounts so only create 25 a day.
+- Max accounts(adjustable) 1500 - NationStates has an inbuilt function preventing excess accounts so only able to create 50-100 a day.
 
 You can adjust these constants directly in the script.
 
@@ -41,12 +41,12 @@ The script keeps a persistent count of:
 - Epic
 - Legendary
 
-Also shows which accounts hold legendary cards.
+Also shows which accounts specifically hold legendary cards.
 
 Author
 
 Ashok Joseph
 
 ---
-
-Please note - The script is currently under development; the current version autoselects the first choice for each issue and then opens any packs earned. I am working on a version that tests all the choices within the issues to determine if any packs have higher pack success rates. Also, this hack was created for educational purposes, not intended to be exploited in-game. Enjoy! :)
+Disclaimer:
+This project is an independent, fan-made userscript and is not affiliated with, endorsed, or supported by NationStates or its creators. Use of this script is at your own risk, and you should comply with NationStates’ site rules and terms of service.
