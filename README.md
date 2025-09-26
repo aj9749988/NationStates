@@ -13,7 +13,7 @@ This Tampermonkey userscript automates NationStates tasks such as:
 - Opens and flips card packs with delays and animations.
 - Tracks card rarity totals and stores across sessions.
 - Displays a floating UI overlay with stats, search, and credit.
-- Creates new accounts (`sacc1` to `sacc300`) and logs in automatically.
+- Creates new accounts (`sacc1` to `sacc1500`) and logs in automatically.
 - Includes a help panel with reset, credit, and quick search.
 
 Steps to Activate
